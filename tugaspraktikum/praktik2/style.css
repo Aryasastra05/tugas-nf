@@ -1,0 +1,73 @@
+/* stle.css */
+.container {
+    margin: 0 500px;
+}
+.logo {
+    margin: 0 -500px;
+}
+.space li {
+    position: relative;
+    top: 20px;
+    color: red;
+    padding-left: 0.5rem;
+}
+.search {
+    position: absolute;
+    top: 65px;
+    left: 50%;
+}
+.search input {
+    padding-inline-start: 100%;
+    padding-inline-end: 100%;
+}
+.search button {
+    position: absolute;
+    left: 300%;
+    top: 0;
+    height: 20px;
+}
+.click {
+    position: absolute;
+    top: 5.1rem;
+}
+.container-content {
+    display: flex;
+    margin-bottom: 75px;
+    margin-left: 125px;
+}
+.content {
+    display: block;
+    margin: 0 50px;
+    margin-inline-start: calc(50% - 45%);
+    margin-top: 50px;
+}
+.content img {
+    transition: transform 900ms;
+     object-fit: cover;
+     cursor: pointer;
+    border: 2px #fff;
+    border-radius: 10px;
+}
+.content:hover img {
+    transform: scale(1.2);
+}
+.list {
+    display: block;
+    margin: 60px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list-span {
+    font-weight: 700;
+    font-size: calc(1.25625rem + .075vw);
+}
+.button {
+    display: flex;
+    padding-left: 100px;
+    margin-top: 30px;
+}
+.atasan {
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    
+}

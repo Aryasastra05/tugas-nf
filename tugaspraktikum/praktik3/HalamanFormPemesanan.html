@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Form Pemesanan Barang</title>
+</head>
+<body>
+    <form action="HalamanHasil.html" method="post">
+
+    <table>
+        <tr>
+            <td>Title Here:</td>
+            <td>
+                <input type="text" name="titlehere">
+            </td>
+        </tr>
+
+        <tr>
+        <td>Description:</td>
+            <td>
+                <textarea name="description" cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Account Number:</td>
+            <td>
+                <input type="text" name="accountnumber">
+            </td>
+        </tr>
+        
+        <td>
+        <label for="bank">Bank :</label>
+        
+          <select name="bank" id="bank">
+          <option value="HSBC">HSBC</option>
+          <option value="BRI">BRI</option>
+          <option value="BNI">BNI</option>
+          </select>
+        </td>
+          <tr>
+            <td>Account Holder:</td>
+            <td>
+                <input type="text" name="accountholder">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Transaction:</td>
+            <td>
+                <input type="number" name="transaction">
+            </td>
+        </tr>
+        
+        <tr>
+        <td>
+            <br>
+        <p>* if the transaction is for 3 person, choose 3 from the drop-down list</p>
+        
+        </td>
+    </tr>
+        <tr>
+        <td>
+        <input type="checkbox" name="transaction[]" value="Send to Mobile Phone">Send to Mobile Phone
+    <br>
+        <input type="checkbox" name="transaction[]" value="Send to Email">Send to Email
+    <br>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Send to Mobile Phone:</td>
+        <td>
+            <input type="number" name="phone">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Send to Email:</td>
+        <td>
+            <input type="email" name="email">
+        </td>
+    </tr>
+     <table>
+        <br>
+        <button type="submit">Generate Nabr Link</button>
+        <button type="reset">Reset</button>
+        <br>
+    </form>
+</body>
+</html>
