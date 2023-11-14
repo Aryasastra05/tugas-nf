@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.navbar a{
+    color: blue;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hitaman{
+    color: black;
+    font-weight: 400;
+}
+
+
+
+input, select{
+    height: 25px;
+}
+
+input, select, textarea{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+td{
+    padding: 6px 10px;
+}
+
+label{
+    display: block;
+    text-align: end;
+    font-size: 14px;
+}
+
+button {
+    padding: 6px 9px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-blue{
+    background-color: cornflowerblue;
+    
+}
+
+.btn-yellow{
+    background-color: yellow;
+    
+}
+
+.btn-red{
+    background-color: crimson;
+}
