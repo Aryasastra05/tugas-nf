@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dollar ke Rupiah </title>
+</head>
+<body>
+    <h1>Dollar ke Rupiah </h1>
+    <label for="dollar">masukan dollar :</label>
+    <input type="number" id="dollar" step="0.01">
+    <button onclick="calculateRupiah()">Calculate</button>
+    <h2 id="result"></h2>
+
+    <script>
+        function calculateRupiah() {
+            var dollar = document.getElementById("dollar").value;
+            var rate = 14650; // 1 dollar = 14650 rupiah
+            var rupiah = dollar * rate;
+            document.getElementById("result").innerHTML = "Rupiah : " + rupiah.toFixed(2);
+        }
+    </script>
+</body>
+</html>
